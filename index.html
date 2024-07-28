@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfoliyo</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./footer.css" />
+    <link rel="stylesheet" href="./work.css" />
+    <link rel="stylesheet" href="./skills.css" />
+    <link rel="stylesheet" href="./about.css" />
+    <link rel="stylesheet" href="./contact.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./header.css" />
+  </head>
+
+  <body>
+    <div class="scrollToTop-btn">
+      <i class="fas fa-angle-up"></i>
+    </div>
+    <canvas id="canvas"></canvas>
+    <header class="header">
+      <script src="./script2.js"></script>
+
+      <nav class="navigation">
+        <div class="navigation__left">
+          <a href="#!" class="btn-change brand">Kritika</a>
+          <a href="#!" class="menu-btn"><span></span></a>
+        </div>
+        <ul class="navigation__list">
+          <li>
+            <a class="navigation__link" href="#main">
+              home
+              <svg viewbox="0 0 70 36">
+                <path
+                  d="M6.9739 30.8153H63.0244C65.5269 30.8152 75.5358 -3.68471 35.4998 2.81531C-16.1598 11.2025 0.894099 33.9766 26.9922 34.3153C104.062 35.3153 54.5169 -6.68469 23.489 9.31527"
+                />
+              </svg>
+            </a>
+          </li>
+
+          <li>
+            <a class="navigation__link" href="#about">
+              about
+              <svg viewbox="0 0 70 36">
+                <path
+                  d="M6.9739 30.8153H63.0244C65.5269 30.8152 75.5358 -3.68471 35.4998 2.81531C-16.1598 11.2025 0.894099 33.9766 26.9922 34.3153C104.062 35.3153 54.5169 -6.68469 23.489 9.31527"
+                />
+              </svg>
+            </a>
+          </li>
+
+          <li>
+            <a class="navigation__link" href="#skills">
+              skills
+              <svg viewbox="0 0 70 36">
+                <path
+                  d="M6.9739 30.8153H63.0244C65.5269 30.8152 75.5358 -3.68471 35.4998 2.81531C-16.1598 11.2025 0.894099 33.9766 26.9922 34.3153C104.062 35.3153 54.5169 -6.68469 23.489 9.31527"
+                />
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="navigation__link" href="#work">
+              work
+              <svg viewbox="0 0 70 36">
+                <path
+                  d="M6.9739 30.8153H63.0244C65.5269 30.8152 75.5358 -3.68471 35.4998 2.81531C-16.1598 11.2025 0.894099 33.9766 26.9922 34.3153C104.062 35.3153 54.5169 -6.68469 23.489 9.31527"
+                />
+              </svg>
+            </a>
+          </li>
+
+          <li>
+            <a class="navigation__link" href="#contact">
+              contact
+              <svg viewbox="0 0 70 36">
+                <path
+                  d="M6.9739 30.8153H63.0244C65.5269 30.8152 75.5358 -3.68471 35.4998 2.81531C-16.1598 11.2025 0.894099 33.9766 26.9922 34.3153C104.062 35.3153 54.5169 -6.68469 23.489 9.31527"
+                />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__content container">
+        <div class="header__content-group">
+          <h2 class="header__group-title">
+            Hello, I'm <br />
+            <span title="I am here"> Kritika kumari </span>
+          </h2>
+          <div class="animated-text">
+            <h3 class="animated-text__title">Data Analyst</h3>
+            <h3 class="animated-text__title">Frontend developer</h3>
+            <h3 class="animated-text__title">Hardworking</h3>
+          </div>
+
+          <a
+            href="https://github.com/kritika108"
+            rel="noopener"
+            target="_blank"
+            class="header__group-btn btn cybr-btn"
+            >See my work</a
+          >
+
+          <div class="header__group-media_icons">
+            <a
+              class="header__group-icon"
+              href="https://www.instagram.com/Kirt_ikritika"
+              rel="noopener"
+              target="_blank"
+              title="Instagram"
+              ><i
+                class="header__icon fab fa-instagram fa-spin"
+                id="instagram"
+              ></i
+            ></a>
+            <a
+              class="header__group-icon"
+              href="https://www.t.me/Kirt_ikritika"
+              rel="noopener"
+              target="_blank"
+              ><i
+                class="header__icon fab fa-telegram-plane fa-spin"
+                id="telegram"
+                title="Telegram"
+              ></i
+            ></a>
+            <a
+              class="header__group-icon"
+              href="https://github.com/Kirt_ikritika"
+              rel="noopener"
+              target="_blank"
+              title="GitHub"
+              ><i
+                class="header__icon fab fa-github-square github fa-spin"
+                id="github"
+              ></i
+            ></a>
+            <a
+              class="header__group-icon"
+              href="https://www.facebook.com/kritika kumari"
+              rel="noopener"
+              target="_blank "
+              title="Facebook"
+              ><i
+                class="header__icon fab fa-facebook-square fa-spin"
+                id="facebook"
+              ></i
+            ></a>
+          </div>
+            
+            <a href="https://drive.google.com/file/d/1ftXQLP2WvX9I4NIxAt_faTDWUxSErPOz/view?usp=drivesdk" class="header__content-btn data-modal"
+              >Resume</a
+            >
+        </div>
+      </div>
+    </header>
+    <main class="main" id="main">
+      <section class="about" id="about">
+        <div class="about__puck container">
+          <h2 class="reveal section__title about__title btn-change">
+            About Me
+          </h2>
+          <div class="about__column">
+            <figure class="about__column-left col-left reveal">
+              <img
+                class="about__column-img"
+                src="./Kritika_pic.jpg"
+                alt="jpg"
+                title="Kritika"
+              />
+            </figure>
+            <div class="about__column-right col-right reveal">
+              <h2 class="about__right-title">
+                Hey there! I'm <span>Kritika kumari</span>
+              </h2>
+              <p class="about__right-text">My name is kritika kumari.I  am a Final year Mechanical Engineering Student  at
+              National Institute of Technology Patna.</p>
+              <br />
+              <p class="about__right-text">
+                 During my academic journey, I gained hands-on experience in my specilized field and through projects, internships, and coursework. I am passionate & innovative professional with a diverse skill set in <strong>Web Development,React Framework,problem solving,Python Programming,C++,Basic Java</strong> and excited to bring my fresh ideas and enthusiasm to a dynamic team and individual.
+                 
+                I am particularly interested in <strong>Frontend Developer,Data Analyst</strong> and look forward to contributing to your Company or Industry. I am open to opportunities that will challenge and help me to develop my skills further, while making a positive impact.
+              
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+</figure>
+
+      <section class="skills" id="skills">
+        <div class="skills__lot-content container">
+          <h2 class="reveal section__title skills__title btn-change">
+            My skills
+          </h2>
+          <div class="skills__content">
+            <div class="skills__content-column col-left reveal">
+              <h2 class="skills__column-title">My skills and Experiences</h2>
+              <p class="skills__column-text">
+                I have gained knowledge in  HTML, CSS, bootstrap,
+                JavaScript,Python,C++ React JS,Data Analyst.
+              </p>
+              <a
+                href="https://github.com/kritika108"
+                rel="noopener"
+                target="_blank"
+                class="btn"
+                >See more</a
+              >
+            </div>
+            <div class="skills__content-right col-right reveal">
+              <div class="skills__right-bar">
+                <div class="skills__right-barInfo">
+                  <b class="skills__bar-mean">HTML</b>
+                  <b class="skills__bar-percent">99%</b>
+                </div>
+                <div class="line html"></div>
+                <div class="skills__right-barInfo">
+                  <b class="skills__bar-mean">CSS</b>
+                  <b class="skills__bar-percent">85%</b>
+                </div>
+                <div class="line css"></div>
+                <div class="skills__right-barInfo">
+                  <b class="skills__bar-mean">JavaScript</b>
+                  <b class="skills__bar-percent">80%</b>
+                </div>
+                <div class="line javascript"></div>
+                <div class="skills__right-barInfo">
+                  <b class="skills__bar-mean">React JS</b>
+                  <b class="skills__bar-percent">60%</b>
+                </div>
+                <div class="line reactjs"></div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>  
+
+      <section class="work" id="work">
+        <div class="work__box-content container">
+          <h2 class="section__title reveal work__title btn-change">My Work</h2>
+          <div class="work__content">
+           
+            <div class="work__content-card reveal">
+              <div class="work__card-img">
+                <a
+                  href="https://kritika108.github.io/weather-Application/"
+                  rel="noopener"
+                  target="_blank"
+                  title="Site of weather-Application"
+                  ><img src="./photo_004.png" alt="png"
+                /></a>
+              </div>
+            </div>
+            <div class="work__content-card reveal">
+              <div class="work__card-img">
+                <a
+                  href="https://kritika108.github.io/Sliding_SignUp_Login/"
+                  rel="noopener"
+                  target="_blank"
+                  title="Site of Slidin_signup_login"
+                  ><img src="./photo_001.png" alt="png"
+                /></a>
+              </div>
+            </div>
+            <div class="work__content-card reveal">
+              <div class="work__card-img">
+                <a
+                  href="https://kritika108.github.io/Delivery-Page/"
+                  rel="noopener"
+                  target="_blank"
+                  title="Site of Food Delivery"
+                  ><img src="./photo_002.png" alt="png"
+                /></a>
+              </div>
+            </div>
+          
+          </div>
+          <div class="title reveal">
+            <a
+              href="https://github.com/kritika108"
+              rel="noopener"
+              target="_blank"
+              class="btn"
+              >See All</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <h2 class="reveal section__title contact__title btn-change">
+          Contact Me
+        </h2>
+        <div class="content">
+          <div class="row">
+            <div class="card reveal">
+              <div class="contact-icon">
+                <i class="fas fa-envelope iconSo-adress__3"></i>
+              </div>
+              <div class="info">
+                <h3>Email Address</h3>
+                <a href="mailto: shivkriti1091@gmail.com">
+                  shivkriti1091@gmail.com</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="row">
+      <form   action="https://api.web3forms.com/submit"
+      method="POST" class="contact-form reveal">
+          <h3>Send Message</h3>
+          <input
+          type="hidden"
+          name="access_key"
+          value="8b4b4310-d9f4-40d3-b2f8-906b634f233f"/>
+          <input type="hidden" name="subject" value="New Message" />
+          <div class="input-box">
+            <label for="name" class="form-label"></label>
+              <input required placeholder="Your name"  id="name"name="name" type="text" class="input-class">
+          </div>
+          <div class="input-box">
+            <label for="phone" class="form-label"></label>
+              <input required placeholder="Your phone number" name="phone" id="phone" type="phone" class="input-class">
+          </div>
+          <div class="input-box">
+            <label for="message" class="form-label"></label>
+              <textarea class="message" rows="8" cols="80" placeholder="Message" id="message" name="message"></textarea>
+          </div>
+          <div class="input-box">
+              <input type="submit" class="send-btn" value="send">
+          </div>
+      </form>
+  </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__text">Made by Kritika Kumari</p>
+      <div class="tab">
+        <span class="fab-action-button">
+          <i class="fab-action-button__icon"></i>
+        </span>
+        <ul class="fab-buttons">
+          <li class="fab-buttons__item">
+            <a
+              href="https://www.facebook.com/Kritika-kumari"
+              target="_blank"
+              class="fab-buttons__link"
+              data-tooltip="Facebook"
+            >
+              <i class="icon-material icon-material_fb"></i>
+            </a>
+            <a
+            href="https://www.linkedin.com/in/kritika-kumari-2914a7241/"
+            target="_blank"
+            class="fab-buttons__link"
+            data-tooltip="Linkedin"
+          >
+            <i class="icon-material icon-material_li"></i>
+          </a>
+          <a
+              href="https://www.google.com/chrome/"
+              target="_blank"
+              class="fab-buttons__link"
+              data-tooltip="Google+"
+            >
+              <i class="icon-material icon-material_gp"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>

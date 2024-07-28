@@ -1,0 +1,68 @@
+@import url(../style/fonts.css);
+
+/*/******** * My Work********** */
+
+.work {
+	background: #000016;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.work__content {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: 20px;
+}
+
+.work__content-card {
+	width: 340px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.work__card-img {
+	position: relative;
+	width: 100%;
+	height: 260px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.work__card-img img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 10px;
+	transition: .5s ease;
+}
+
+.work__card-img img:hover {
+	transform: scale(1.2);
+}
+@import url(../style/fonts.css);
+
+/*********** footer *************/
+
+.footer {
+	background: #000016;
+	color: #fff;
+	text-align: left;
+	padding-top: 34px;
+	padding-bottom: 34px;
+	padding-left: 34px;
+	padding-right: 34px;
+}
+
+.footer__text {
+	font-size: 16px;
+	margin-top: 10px;
+}

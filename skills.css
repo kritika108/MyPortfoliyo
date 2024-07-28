@@ -1,0 +1,141 @@
+@import url(../style/fonts.css);
+
+
+
+.skills {
+  background: #000016;
+  padding-left: 20px;
+  padding-right: 20px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.skills__content {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.skills__content-column {
+  position: relative;
+  width: 45%;
+}
+
+.skills__column-title {
+  margin-bottom: 20px;
+}
+
+.skills__column-text {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.skills__content-right {
+  position: relative;
+  width: 45%;
+}
+
+.skills__right-bar {
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.skills__right-barInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.skills__bar-mean {
+  font-size: 18px;
+  font-family: 'RL';
+}
+
+.skills__bar-percent {
+  font-size: 18px;
+  font-family: 'RL';
+}
+
+.skills .line {
+  position: relative;
+  width: 100%;
+  height: 15px;
+  background: #ccc;
+  border-radius: 2px;
+}
+
+.skills .line::before {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 2px;
+}
+
+.skills .html::before {
+  content: '';
+  display: block;
+  width: 99%;
+  background: #E45126;
+}
+
+.skills .css::before {
+  content: '';
+  display: block;
+  width: 85%;
+  background: #0c73b8;
+}
+
+.skills .javascript::before {
+  content: '';
+  display: block;
+  width: 80%;
+  background: #e3a324;
+}
+
+
+.skills .reactjs::before {
+  content: '';
+  display: block;
+  width: 50%;
+  background: #30dd6d;
+}
+
+
+
+
+
+/* ***** Media ****** */
+
+@media (max-width: 1040px) {
+  .skills__content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skills__content-column {
+    position: relative;
+    width: 100%;
+  }
+
+  .skills__content-right {
+    margin-top: 40px;
+    width: 100%;
+  }
+
+  .skills__right-bar {
+    width: 100%;
+  }
+
+}
