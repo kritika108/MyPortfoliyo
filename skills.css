@@ -101,16 +101,29 @@
   content: '';
   display: block;
   width: 80%;
-  background: #e3a324;
+  background: #148389;
 }
 
 
 .skills .reactjs::before {
   content: '';
   display: block;
-  width: 50%;
-  background: #30dd6d;
+  width: 60%;
+  background: #339f59;
 }
+.skills .powerbi::before {
+  content: '';
+  display: block;
+  width: 90%;
+  background: #79bfdf96;
+}
+.skills .python::before {
+  content: '';
+  display: block;
+  width: 60%;
+  background: #bb844ae4;
+}
+
 
 
 
